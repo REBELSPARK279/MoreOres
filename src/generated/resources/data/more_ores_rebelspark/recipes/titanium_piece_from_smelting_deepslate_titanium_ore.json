@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 180,
+  "experience": 0.35,
+  "group": "titanium",
+  "ingredient": {
+    "item": "more_ores_rebelspark:deepslate_titanium_ore"
+  },
+  "result": "more_ores_rebelspark:titanium_piece"
+}

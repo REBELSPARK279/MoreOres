@@ -1,0 +1,14 @@
+{
+  "type": "more_ores_rebelspark:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/ancient_city"
+    },
+    {
+      "chance": 0.11,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "more_ores_rebelspark:aria_math_music_disc"
+}

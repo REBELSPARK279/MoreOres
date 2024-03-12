@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "more_ores_rebelspark:titanium_piece"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "## ",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "item": "more_ores_rebelspark:titanium_hoe"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,14 @@
+{
+  "type": "more_ores_rebelspark:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/iron_golem"
+    },
+    {
+      "chance": 0.25,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "more_ores_rebelspark:steel_ingot"
+}

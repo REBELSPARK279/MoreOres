@@ -1,0 +1,56 @@
+{
+  "item.more_ores_rebelspark.topaz_gemstone": "Topaz Gemstone",
+
+  "item.more_ores_rebelspark.titanium_piece": "Titanium Piece",
+  "block.more_ores_rebelspark.titanium_block": "Titanium Block",
+  "block.more_ores_rebelspark.titanium_ore": "Titanium Ore",
+  "block.more_ores_rebelspark.deepslate_titanium_ore": "Deepslate Titanium Ore",
+  "item.more_ores_rebelspark.titanium_sword": "Titanium Sword",
+  "item.more_ores_rebelspark.titanium_pickaxe": "Titanium Pickaxe",
+  "item.more_ores_rebelspark.titanium_axe": "Titanium Axe",
+  "item.more_ores_rebelspark.titanium_shovel": "Titanium Shovel",
+  "item.more_ores_rebelspark.titanium_hoe": "Titanium Hoe",
+  "item.more_ores_rebelspark.titanium_helmet": "Titanium Helmet",
+  "item.more_ores_rebelspark.titanium_chestplate": "Titanium Chestplate",
+  "item.more_ores_rebelspark.titanium_leggings": "Titanium Leggings",
+  "item.more_ores_rebelspark.titanium_boots": "Titanium Boots",
+
+
+
+  "item.more_ores_rebelspark.copper_sword": "Copper Sword",
+  "item.more_ores_rebelspark.copper_pickaxe": "Copper Pickaxe",
+  "item.more_ores_rebelspark.copper_axe": "Copper Axe",
+  "item.more_ores_rebelspark.copper_shovel": "Copper Shovel",
+  "item.more_ores_rebelspark.copper_hoe": "Copper Hoe",
+  "item.more_ores_rebelspark.copper_helmet": "Copper Helmet",
+  "item.more_ores_rebelspark.copper_chestplate": "Copper Chestplate",
+  "item.more_ores_rebelspark.copper_leggings": "Copper Leggings",
+  "item.more_ores_rebelspark.copper_boots": "Copper Boots",
+
+  "block.more_ores_rebelspark.refined_ruby": "Refined Ruby",
+  "block.more_ores_rebelspark.uncut_ruby_shard": "Uncut Ruby Shard",
+
+  "item.more_ores_rebelspark.steel_ingot": "Steel Ingot",
+  "item.more_ores_rebelspark.steel_rod": "Steel Rod",
+  "block.more_ores_rebelspark.steel_block": "Steel Block",
+
+  "block.more_ores_rebelspark.splunkers_table": "Splunker's Table",
+  "block.more_ores_rebelspark.refinery": "Refinery",
+
+
+  "creativetab.more_ores_tab": "More Ores, Minerals, and Gemstones",
+  "creativetab.ore_blocks": "More Blocks",
+  "creativetab.ores": "More Ores",
+  "creativetab.weapons_and_tools": "More Tools",
+  "creativetab.armour": "More Armour",
+
+
+  "entity.minecraft.villager.more_ores_rebelspark.splunker": "Splunker",
+
+
+
+  "item.more_ores_rebelspark.castlemania_music_disc": "Music Disc (Castlemania)",
+  "item.more_ores_rebelspark.castlemania_music_disc.desc": "REBELSPARK279 - Castlemania",
+  "item.more_ores_rebelspark.aria_math_music_disc": "Music Disc (Aria Math)",
+  "item.more_ores_rebelspark.aria_math_music_disc.desc": "C418 - Aria Math"
+}

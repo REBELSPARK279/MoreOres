@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "more_ores_rebelspark:block/splunkers_table_bottom",
+    "east": "more_ores_rebelspark:block/splunkers_table_side",
+    "north": "more_ores_rebelspark:block/splunkers_table_side",
+    "particle": "more_ores_rebelspark:block/splunkers_table_side",
+    "south": "more_ores_rebelspark:block/splunkers_table_side",
+    "up": "more_ores_rebelspark:block/splunkers_table_top",
+    "west": "more_ores_rebelspark:block/splunkers_table_side"
+  }
+}

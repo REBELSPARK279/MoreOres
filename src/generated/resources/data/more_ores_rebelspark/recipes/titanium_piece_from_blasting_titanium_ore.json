@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 80,
+  "experience": 0.25,
+  "group": "titanium",
+  "ingredient": {
+    "item": "more_ores_rebelspark:titanium_ore"
+  },
+  "result": "more_ores_rebelspark:titanium_piece"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "more_ores_rebelspark:item/titanium_axe"
+  }
+}

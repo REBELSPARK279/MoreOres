@@ -1,0 +1,17 @@
+{
+  "entries": [
+    "more_ores_rebelspark:titanium_pick_from_toolsmiths",
+    "more_ores_rebelspark:steel_ingot_from_mineshaft",
+    "more_ores_rebelspark:aria_math_from_stronghold_corridor",
+    "more_ores_rebelspark:aria_math_from_stronghold_crossing",
+    "more_ores_rebelspark:castlemania_from_jungle_temple",
+    "more_ores_rebelspark:aria_math_from_ancient_city",
+    "more_ores_rebelspark:castlemania_from_desert_temple",
+    "more_ores_rebelspark:refined_ruby_from_mineshaft",
+    "more_ores_rebelspark:steel_ingot_from_iron_golem",
+    "more_ores_rebelspark:titanium_sword_from_blacksmiths",
+    "more_ores_rebelspark:castlemania_from_dungeon",
+    "more_ores_rebelspark:aria_math_from_dungeon"
+  ],
+  "replace": false
+}
