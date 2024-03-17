@@ -1,6 +1,8 @@
-// 1.20.1	2024-03-08T21:45:48.5427113	Loot Tables
+// 1.20.1	2024-03-15T22:52:56.9576522	Loot Tables
 ddf101db2670efd1f5190933ac00e75b99d26fd6 data/more_ores_rebelspark/loot_tables/blocks/deepslate_ruby_ore.json
 01d765cb3c6eb6c773fa5edda0e97de3d46dd63d data/more_ores_rebelspark/loot_tables/blocks/deepslate_titanium_ore.json
+e8a8ba48b376e5abb257096f6b8f0843dc2b3f73 data/more_ores_rebelspark/loot_tables/blocks/refinery.json
+7a1de284dcdf4971a0a70b58f4b86526fd21a939 data/more_ores_rebelspark/loot_tables/blocks/ruby_block.json
 859e66ba6507cfd9182e8c22fac240cf6791acaf data/more_ores_rebelspark/loot_tables/blocks/ruby_ore.json
 f265244e00239c43ec6a62dae58c1956607c1e9d data/more_ores_rebelspark/loot_tables/blocks/splunkers_table.json
 cda9b14e37eadeb3f10038375a4b857a784f2cfd data/more_ores_rebelspark/loot_tables/blocks/steel_block.json

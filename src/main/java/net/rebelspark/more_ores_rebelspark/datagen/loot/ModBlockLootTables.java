@@ -39,6 +39,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.dropSelf(ModBlocks.STEEL_BLOCK.get());
 
+        this.dropSelf(ModBlocks.RUBY_BLOCK.get());
+
         this.dropSelf(ModBlocks.SPLUNKERS_TABLE.get());
 
         this.dropSelf(ModBlocks.REFINERY.get());

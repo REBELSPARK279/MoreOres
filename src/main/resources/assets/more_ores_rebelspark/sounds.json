@@ -14,5 +14,21 @@
         "stream": true
       }
     ]
+  },
+  "headbug": {
+    "sounds": [
+      {
+        "name": "more_ores_rebelspark:headbug",
+        "stream": true
+      }
+    ]
+  },
+  "castlemania_ii": {
+    "sounds": [
+      {
+        "name": "more_ores_rebelspark:castlemania_ii",
+        "stream": true
+      }
+    ]
   }
 }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "more_ores_rebelspark:ruby_block"
+    },
+    "I": {
+      "item": "more_ores_rebelspark:steel_rod"
+    },
+    "R": {
+      "item": "more_ores_rebelspark:refined_ruby"
+    }
+  },
+  "pattern": [
+    "R#R",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "item": "more_ores_rebelspark:ruby_hammer"
+  },
+  "show_notification": true
+}

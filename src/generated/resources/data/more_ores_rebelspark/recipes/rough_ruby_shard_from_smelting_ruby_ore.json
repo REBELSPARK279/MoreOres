@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 180,
+  "experience": 0.35,
+  "group": "ruby",
+  "ingredient": {
+    "item": "more_ores_rebelspark:ruby_ore"
+  },
+  "result": "more_ores_rebelspark:rough_ruby_shard"
+}

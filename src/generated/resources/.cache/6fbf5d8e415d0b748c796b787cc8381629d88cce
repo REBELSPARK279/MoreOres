@@ -1,3 +1,3 @@
-// 1.20.1	2024-03-08T21:45:48.5441481	Tags for minecraft:block mod id more_ores_rebelspark
-9431d3aa7c92a9d38bb88b8b3ba9da8b49fb4979 data/minecraft/tags/blocks/mineable/pickaxe.json
-9431d3aa7c92a9d38bb88b8b3ba9da8b49fb4979 data/minecraft/tags/blocks/needs_iron_tool.json
+// 1.20.1	2024-03-15T23:32:13.4554598	Tags for minecraft:block mod id more_ores_rebelspark
+015e1d13e21107e634edb427bd1f07ff83a7575e data/minecraft/tags/blocks/mineable/pickaxe.json
+d97bb956176bc005afa0571a254ae710cfbac75f data/minecraft/tags/blocks/needs_iron_tool.json

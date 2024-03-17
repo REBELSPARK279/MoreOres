@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    },
+    "P": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    }
+  },
+  "pattern": [
+    " PT",
+    " ##",
+    " ##"
+  ],
+  "result": {
+    "item": "more_ores_rebelspark:splunkers_table"
+  },
+  "show_notification": true
+}

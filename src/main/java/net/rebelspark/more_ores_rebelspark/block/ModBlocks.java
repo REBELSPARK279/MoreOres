@@ -15,6 +15,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.rebelspark.more_ores_rebelspark.MoreOres;
+//import net.rebelspark.more_ores_rebelspark.block.custom.RefineryBlock;
 import net.rebelspark.more_ores_rebelspark.block.custom.RefineryBlock;
 import net.rebelspark.more_ores_rebelspark.item.ModItems;
 
@@ -49,8 +50,11 @@ public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = registerBlock
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.COPPER).mapColor(MapColor.COLOR_GRAY).requiresCorrectToolForDrops()));
 
-    public static final RegistryObject<Block> REFINERY = registerBlock("refinery",
-            () -> new RefineryBlock(BlockBehaviour.Properties.copy(Blocks.FURNACE).sound(SoundType.COPPER).mapColor(MapColor.COLOR_LIGHT_GRAY).noOcclusion()));
+    public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
+            () -> new RefineryBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.NETHERITE_BLOCK).mapColor(MapColor.COLOR_RED).requiresCorrectToolForDrops()));
+
+   public static final RegistryObject<Block> REFINERY = registerBlock("refinery",
+            () -> new RefineryBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.COPPER).mapColor(MapColor.COLOR_GRAY)));
 
 //ENDS ^^^
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

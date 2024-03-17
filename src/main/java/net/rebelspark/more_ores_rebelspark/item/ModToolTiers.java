@@ -22,7 +22,7 @@ public class ModToolTiers {
                     ModTags.Blocks.NEEDS_COPPER_TOOL, () -> Ingredient.of(Items.COPPER_INGOT)),
             new ResourceLocation(MoreOres.MOD_ID, "copper"), List.of(Tiers.STONE), List.of());
     public static final Tier RUBY = TierSortingRegistry.registerTier(
-            new ForgeTier(3,1250,9f,5f,19,
+            new ForgeTier(3,1650,9f,5f,19,
                     ModTags.Blocks.NEEDS_RUBY_TOOL, () -> Ingredient.of(ModItems.REFINED_RUBY.get())),
             new ResourceLocation(MoreOres.MOD_ID, "ruby"), List.of(Tiers.DIAMOND), List.of());
 }

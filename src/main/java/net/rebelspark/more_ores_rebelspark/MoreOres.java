@@ -19,6 +19,7 @@ import net.rebelspark.more_ores_rebelspark.block.entity.ModBlockEntities;
 import net.rebelspark.more_ores_rebelspark.item.ModCreativeModeTabs;
 import net.rebelspark.more_ores_rebelspark.item.ModItems;
 import net.rebelspark.more_ores_rebelspark.loot.ModLootModifiers;
+import net.rebelspark.more_ores_rebelspark.recipe.ModRecipes;
 import net.rebelspark.more_ores_rebelspark.screen.ModMenuTypes;
 import net.rebelspark.more_ores_rebelspark.screen.RefineryScreen;
 import net.rebelspark.more_ores_rebelspark.sound.ModSounds;
@@ -44,7 +45,7 @@ public class MoreOres {
         ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
-
+        ModRecipes.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
 
         modEventBus.addListener(this::addCreative);

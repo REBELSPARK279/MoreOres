@@ -27,14 +27,19 @@
   "item.more_ores_rebelspark.copper_leggings": "Copper Leggings",
   "item.more_ores_rebelspark.copper_boots": "Copper Boots",
 
-  "block.more_ores_rebelspark.refined_ruby": "Refined Ruby",
-  "block.more_ores_rebelspark.uncut_ruby_shard": "Uncut Ruby Shard",
+  "item.more_ores_rebelspark.refined_ruby": "Refined Ruby",
+  "item.more_ores_rebelspark.rough_ruby_shard": "Rough Ruby Shard",
+  "block.more_ores_rebelspark.ruby_block": "Block of Ruby",
+  "block.more_ores_rebelspark.ruby_ore": "Ruby Ore",
+  "block.more_ores_rebelspark.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "item.more_ores_rebelspark.ruby_hammer": "Ruby Hammer",
 
   "item.more_ores_rebelspark.steel_ingot": "Steel Ingot",
   "item.more_ores_rebelspark.steel_rod": "Steel Rod",
   "block.more_ores_rebelspark.steel_block": "Steel Block",
+  "item.more_ores_rebelspark.steel_bolt": "Steel Bolt",
 
-  "block.more_ores_rebelspark.splunkers_table": "Splunker's Table",
+  "block.more_ores_rebelspark.splunkers_table": "Spelunker's Table",
   "block.more_ores_rebelspark.refinery": "Refinery",
 
 
@@ -43,14 +48,20 @@
   "creativetab.ores": "More Ores",
   "creativetab.weapons_and_tools": "More Tools",
   "creativetab.armour": "More Armour",
+  "creativetab.discs": "More Music Discs",
+  "creativetab.misc": "More Misc Items",
 
 
-  "entity.minecraft.villager.more_ores_rebelspark.splunker": "Splunker",
+  "entity.minecraft.villager.more_ores_rebelspark.splunker": "Spelunker",
 
 
 
-  "item.more_ores_rebelspark.castlemania_music_disc": "Music Disc (Castlemania)",
+  "item.more_ores_rebelspark.castlemania_music_disc": "Music Disc",
   "item.more_ores_rebelspark.castlemania_music_disc.desc": "REBELSPARK279 - Castlemania",
-  "item.more_ores_rebelspark.aria_math_music_disc": "Music Disc (Aria Math)",
-  "item.more_ores_rebelspark.aria_math_music_disc.desc": "C418 - Aria Math"
+  "item.more_ores_rebelspark.aria_math_music_disc": "Music Disc",
+  "item.more_ores_rebelspark.aria_math_music_disc.desc": "C418 - Aria Math",
+  "item.more_ores_rebelspark.headbug_music_disc": "Music Disc",
+  "item.more_ores_rebelspark.headbug_music_disc.desc": "REBELSPARK279 - Headbug",
+  "item.more_ores_rebelspark.castlemania_ii_music_disc": "Music Disc",
+  "item.more_ores_rebelspark.castlemania_ii_music_disc.desc": "REBELSPARK279 - Castlemania II"
 }

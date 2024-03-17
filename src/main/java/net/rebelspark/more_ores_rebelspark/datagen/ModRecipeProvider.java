@@ -2,12 +2,14 @@ package net.rebelspark.more_ores_rebelspark.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.BlastingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.rebelspark.more_ores_rebelspark.MoreOres;
 import net.rebelspark.more_ores_rebelspark.block.ModBlocks;
@@ -185,10 +187,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
                 .save(pWriter);
 
-                                        //RUBY
-       // oreBlasting(pWriter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.ROUGH_RUBY_SHARD.get(), 0.25f, 80, "ruby");
-       // oreSmelting(pWriter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.ROUGH_RUBY_SHARD.get(), 0.35f, 180, "ruby");
-
                                 //STEEL
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_ROD.get())
@@ -215,6 +213,59 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.STEEL_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.STEEL_BLOCK.get()), has(ModBlocks.STEEL_BLOCK.get()))
                 .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.STEEL_BOLT.get(), 16)
+                .pattern("###")
+                .pattern(" # ")
+                .pattern("   ")
+                .define('#', ModItems.STEEL_INGOT.get())
+                .unlockedBy(getHasName(ModItems.STEEL_INGOT.get()), has(ModItems.STEEL_INGOT.get()))
+                .save(pWriter);
+
+                                //RUBY
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RUBY_BLOCK.get())
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .define('#', ModItems.REFINED_RUBY.get())
+                .unlockedBy(getHasName(ModItems.REFINED_RUBY.get()), has(ModItems.REFINED_RUBY.get()))
+                .save(pWriter);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.REFINED_RUBY.get(), 9)
+                .requires(ModBlocks.RUBY_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.RUBY_BLOCK.get()), has(ModBlocks.RUBY_BLOCK.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RUBY_HAMMER.get())
+                .pattern("R#R")
+                .pattern(" I ")
+                .pattern(" I ")
+                .define('R', ModItems.REFINED_RUBY.get())
+                .define('#', ModBlocks.RUBY_BLOCK.get())
+                .define('I', ModItems.STEEL_ROD.get())
+                .unlockedBy(getHasName(ModItems.REFINED_RUBY.get()), has(ModItems.REFINED_RUBY.get()))
+                .save(pWriter);
+        oreBlasting(pWriter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.ROUGH_RUBY_SHARD.get(), 0.25f, 80, "ruby");
+        oreSmelting(pWriter, RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.ROUGH_RUBY_SHARD.get(), 0.35f, 180, "ruby");
+                     //other
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.REFINERY.get())
+                .pattern("CSC")
+                .pattern("SBS")
+                .pattern("S#S")
+                .define('S', ModItems.STEEL_INGOT.get())
+                .define('#', Blocks.REDSTONE_BLOCK)
+                .define('C', ModItems.STEEL_BOLT.get())
+                .define('B', Items.BRUSH)
+                .unlockedBy(getHasName(ModItems.REFINED_RUBY.get()), has(ModItems.REFINED_RUBY.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SPLUNKERS_TABLE.get())
+                .pattern(" PT")
+                .pattern(" ##")
+                .pattern(" ##")
+                .define('P', Items.STONE_PICKAXE)
+                .define('#', Items.OAK_PLANKS)
+                .define('T', Items.TORCH)
+                .unlockedBy(getHasName(ModItems.REFINED_RUBY.get()), has(ModItems.REFINED_RUBY.get()))
+                .save(pWriter);
+
 
     }
 

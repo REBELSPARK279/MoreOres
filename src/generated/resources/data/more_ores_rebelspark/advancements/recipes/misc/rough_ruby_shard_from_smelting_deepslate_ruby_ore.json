@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deepslate_ruby_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "more_ores_rebelspark:deepslate_ruby_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "more_ores_rebelspark:rough_ruby_shard_from_smelting_deepslate_ruby_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate_ruby_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "more_ores_rebelspark:rough_ruby_shard_from_smelting_deepslate_ruby_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

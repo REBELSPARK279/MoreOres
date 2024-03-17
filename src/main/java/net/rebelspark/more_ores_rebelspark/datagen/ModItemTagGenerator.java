@@ -33,14 +33,18 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
         this.tag(ItemTags.MUSIC_DISCS)
                 .add(ModItems.CASTLEMANIA_MUSIC_DISC.get(),
-                ModItems.ARIA_MATH_MUSIC_DISC.get()
+                ModItems.ARIA_MATH_MUSIC_DISC.get(),
+                        ModItems.HEADBUG_MUSIC_DISC.get(),
+                        ModItems.CASTLEMANIA_II_MUSIC_DISC.get()
 
 
                 );
 
         this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .add(ModItems.CASTLEMANIA_MUSIC_DISC.get(),
-                ModItems.ARIA_MATH_MUSIC_DISC.get()
+                ModItems.ARIA_MATH_MUSIC_DISC.get(),
+                        ModItems.HEADBUG_MUSIC_DISC.get(),
+                        ModItems.CASTLEMANIA_II_MUSIC_DISC.get()
 
                 );
     }

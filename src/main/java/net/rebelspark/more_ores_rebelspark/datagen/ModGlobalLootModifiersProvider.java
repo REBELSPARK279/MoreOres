@@ -32,7 +32,8 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
         add("titanium_pick_from_toolsmiths", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/village/village_toolsmith")).build(),
                 LootItemRandomChanceCondition.randomChance(0.11f).build()}, ModItems.TITANIUM_PICKAXE.get()));
-
+                                                //DISCS
+                                                //CASTLEMANIA
         add("castlemania_from_jungle_temple", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build(),
                 LootItemRandomChanceCondition.randomChance(0.09f).build()}, ModItems.CASTLEMANIA_MUSIC_DISC.get()));
@@ -42,7 +43,7 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
         add("castlemania_from_desert_temple", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/desert_pyramid")).build(),
                 LootItemRandomChanceCondition.randomChance(0.095f).build()}, ModItems.CASTLEMANIA_MUSIC_DISC.get()));
-
+                                                //ARIA MATH
         add("aria_math_from_dungeon", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/simple_dungeon")).build(),
                 LootItemRandomChanceCondition.randomChance(0.08f).build()}, ModItems.ARIA_MATH_MUSIC_DISC.get()));
@@ -55,6 +56,31 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
         add("aria_math_from_ancient_city", new AddItemModifier(new LootItemCondition[] {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
                 LootItemRandomChanceCondition.randomChance(0.11f).build()}, ModItems.ARIA_MATH_MUSIC_DISC.get()));
+                                                //HEADBUG
+        add("headbug_from_dungeon", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/simple_dungeon")).build(),
+                LootItemRandomChanceCondition.randomChance(0.19f).build()}, ModItems.HEADBUG_MUSIC_DISC.get()));
+        add("headbug_from_desert_temple", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/desert_pyramid")).build(),
+                LootItemRandomChanceCondition.randomChance(0.17f).build()}, ModItems.HEADBUG_MUSIC_DISC.get()));
+        add("headbug_from_treasure", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.80f).build()}, ModItems.HEADBUG_MUSIC_DISC.get()));
+        add("headbug_from_mansion", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/woodland_mansion")).build(),
+                LootItemRandomChanceCondition.randomChance(0.57f//<- did random number from 1-100 for this one lol
+                        ).build()}, ModItems.HEADBUG_MUSIC_DISC.get()));
+                                                //CASTLEMANIA II
+        add("castlemania2_from_outpost", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/pillager_outpost")).build(),
+                LootItemRandomChanceCondition.randomChance(0.06f).build()}, ModItems.CASTLEMANIA_II_MUSIC_DISC.get()));
+        add("castlemania2_from_dungeon", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/simple_dungeon")).build(),
+                LootItemRandomChanceCondition.randomChance(0.29f).build()}, ModItems.CASTLEMANIA_II_MUSIC_DISC.get()));
+        add("castlemania2_from_treasure_bastion", new AddItemModifier(new LootItemCondition[] {
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.18f).build()}, ModItems.CASTLEMANIA_II_MUSIC_DISC.get()));
+
 
         add("steel_ingot_from_iron_golem", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/iron_golem")).build(),

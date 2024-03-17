@@ -28,7 +28,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.TITANIUM_BLOCK.get(),
                         ModBlocks.STEEL_BLOCK.get(),
                         ModBlocks.RUBY_ORE.get(),
-                        ModBlocks.DEEPSLATE_RUBY_ORE.get()
+                        ModBlocks.DEEPSLATE_RUBY_ORE.get(),
+                        ModBlocks.RUBY_BLOCK.get(),
+                        ModBlocks.REFINERY.get()
                 );
 
 
@@ -38,7 +40,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.TITANIUM_BLOCK.get(),
                         ModBlocks.STEEL_BLOCK.get(),
                         ModBlocks.RUBY_ORE.get(),
-                        ModBlocks.DEEPSLATE_RUBY_ORE.get()
+                        ModBlocks.DEEPSLATE_RUBY_ORE.get(),
+                        ModBlocks.RUBY_BLOCK.get()
                 );
 
        // this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)

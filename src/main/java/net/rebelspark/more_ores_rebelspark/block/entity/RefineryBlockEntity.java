@@ -1,3 +1,4 @@
+
 package net.rebelspark.more_ores_rebelspark.block.entity;
 
 import net.minecraft.core.BlockPos;
@@ -21,10 +22,12 @@ import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
-import net.rebelspark.more_ores_rebelspark.item.ModItems;
+import net.rebelspark.more_ores_rebelspark.recipe.RefineryRecipe;
 import net.rebelspark.more_ores_rebelspark.screen.RefineryMenu;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Optional;
 
 public class RefineryBlockEntity extends BlockEntity implements MenuProvider {
     private final ItemStackHandler itemHandler = new ItemStackHandler(2);
@@ -36,7 +39,7 @@ public class RefineryBlockEntity extends BlockEntity implements MenuProvider {
 
     protected final ContainerData data;
     private int progress = 0;
-    private int maxProgress = 80;
+    private int maxProgress = 300;
 
     public RefineryBlockEntity(BlockPos pPos, BlockState pBlockState) {
         super(ModBlockEntities.REFINING_BE.get(), pPos, pBlockState);
@@ -139,7 +142,9 @@ public class RefineryBlockEntity extends BlockEntity implements MenuProvider {
     }
 
     private void craftItem() {
-        ItemStack result = new ItemStack(ModItems.REFINED_RUBY.get(), 1);
+        Optional<RefineryRecipe> recipe = getCurrentRecipe();
+        ItemStack result = recipe.get().getResultItem(null);
+
         this.itemHandler.extractItem(INPUT_SLOT, 1, false);
 
         this.itemHandler.setStackInSlot(OUTPUT_SLOT, new ItemStack(result.getItem(),
@@ -155,10 +160,23 @@ public class RefineryBlockEntity extends BlockEntity implements MenuProvider {
     }
 
     private boolean hasRecipe() {
-        boolean hasCraftingItem = this.itemHandler.getStackInSlot(INPUT_SLOT).getItem() == ModItems.ROUGH_RUBY_SHARD.get();
-        ItemStack result = new ItemStack(ModItems.REFINED_RUBY.get());
+        Optional<RefineryRecipe> recipe = getCurrentRecipe();
 
-        return hasCraftingItem && canInsertAmountIntoOutputSlot(result.getCount()) && canInsertItemIntoOutputSlot(result.getItem());
+        if(recipe.isEmpty()) {
+            return false;
+        }
+        ItemStack result = recipe .get().getResultItem(getLevel().registryAccess());
+
+        return canInsertAmountIntoOutputSlot(result.getCount()) && canInsertItemIntoOutputSlot(result.getItem());
+    }
+
+    private Optional<RefineryRecipe> getCurrentRecipe() {
+        SimpleContainer inventory = new SimpleContainer(this.itemHandler.getSlots());
+        for (int i = 0; i < itemHandler.getSlots(); i++) {
+            inventory.setItem(i, this.itemHandler.getStackInSlot(i));
+        }
+
+        return this.level.getRecipeManager().getRecipeFor(RefineryRecipe.Type.INSTANCE, inventory, level);
     }
 
     private boolean canInsertAmountIntoOutputSlot(int count) {
@@ -169,3 +187,5 @@ public class RefineryBlockEntity extends BlockEntity implements MenuProvider {
         return this.itemHandler.getStackInSlot(OUTPUT_SLOT).isEmpty() || this.itemHandler.getStackInSlot(OUTPUT_SLOT).is(item);
     }
 }
+
+

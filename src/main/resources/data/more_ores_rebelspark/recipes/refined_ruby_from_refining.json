@@ -1,0 +1,12 @@
+{
+  "type": "more_ores_rebelspark:refining",
+  "ingredients": [
+    {
+      "item": "more_ores_rebelspark:rough_ruby_shard"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "more_ores_rebelspark:refined_ruby"
+  }
+}

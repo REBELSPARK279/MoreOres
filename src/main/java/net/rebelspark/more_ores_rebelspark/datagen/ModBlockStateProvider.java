@@ -24,6 +24,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockWithItem(ModBlocks.RUBY_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_RUBY_ORE);
+        blockWithItem(ModBlocks.RUBY_BLOCK);
 
         blockWithItem(ModBlocks.STEEL_BLOCK);
 

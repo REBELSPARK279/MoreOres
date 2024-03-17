@@ -16,6 +16,11 @@ public class ModItems {
             () -> new RecordItem(7, ModSounds.CASTLEMANIA, new Item.Properties().stacksTo(1), 3900));
     public static final RegistryObject<Item> ARIA_MATH_MUSIC_DISC = ITEMS.register("aria_math_music_disc",
             () -> new RecordItem(15, ModSounds.ARIA_MATH, new Item.Properties().stacksTo(1), 6200));
+    public static final RegistryObject<Item> HEADBUG_MUSIC_DISC = ITEMS.register("headbug_music_disc",
+            () -> new RecordItem(12, ModSounds.HEADBUG, new Item.Properties().stacksTo(1), 6400));
+    public static final RegistryObject<Item> CASTLEMANIA_II_MUSIC_DISC = ITEMS.register("castlemania_ii_music_disc",
+            () -> new RecordItem(8, ModSounds.CASTLEMANIA_II, new Item.Properties().stacksTo(1), 5880));
+
     public static final RegistryObject<Item> TITANIUM_PIECE = ITEMS.register("titanium_piece",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TITANIUM_SWORD = ITEMS.register("titanium_sword",
@@ -56,6 +61,9 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_BOOTS = ITEMS.register("copper_boots",
             () -> new ArmorItem(ModArmorMaterials.COPPER, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    public static final RegistryObject<Item> RUBY_HAMMER = ITEMS.register("ruby_hammer",
+            () -> new PickaxeItem(ModToolTiers.RUBY,  7,-3.4f, new Item.Properties()));
+
     public static final RegistryObject<Item> REFINED_RUBY = ITEMS.register("refined_ruby",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ROUGH_RUBY_SHARD = ITEMS.register("rough_ruby_shard",
@@ -67,6 +75,8 @@ public class ModItems {
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_ROD = ITEMS.register("steel_rod",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STEEL_BOLT = ITEMS.register("steel_bolt",
             () -> new Item(new Item.Properties()));
 
     //Items end here ^^^^^

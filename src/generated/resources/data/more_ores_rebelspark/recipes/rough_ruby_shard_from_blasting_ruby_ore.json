@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 80,
+  "experience": 0.25,
+  "group": "ruby",
+  "ingredient": {
+    "item": "more_ores_rebelspark:ruby_ore"
+  },
+  "result": "more_ores_rebelspark:rough_ruby_shard"
+}

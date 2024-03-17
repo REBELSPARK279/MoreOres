@@ -14,6 +14,8 @@ public class ModSounds {
 
     public static final RegistryObject<SoundEvent> CASTLEMANIA = registerSoundEvents("castlemania");
     public static final RegistryObject<SoundEvent> ARIA_MATH = registerSoundEvents("aria_math");
+    public static final RegistryObject<SoundEvent> HEADBUG = registerSoundEvents("headbug");
+    public static final RegistryObject<SoundEvent> CASTLEMANIA_II = registerSoundEvents("castlemania_ii");
 
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(MoreOres.MOD_ID, name)));

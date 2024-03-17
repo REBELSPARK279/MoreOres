@@ -1,3 +1,4 @@
+
 package net.rebelspark.more_ores_rebelspark.block.entity;
 
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -21,3 +22,4 @@ public class ModBlockEntities {
         BLOCK_ENTITIES.register(eventBus);
     }
 }
+

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "more_ores_rebelspark:steel_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    " # ",
+    "   "
+  ],
+  "result": {
+    "count": 16,
+    "item": "more_ores_rebelspark:steel_bolt"
+  },
+  "show_notification": true
+}

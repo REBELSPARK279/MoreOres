@@ -1,5 +1,6 @@
-// 1.20.1	2024-03-08T21:45:48.5456337	Item Models: more_ores_rebelspark
+// 1.20.1	2024-03-17T11:02:02.2703213	Item Models: more_ores_rebelspark
 96e0bdfefa6ec067c86b0a2802a30717e93116e1 assets/more_ores_rebelspark/models/item/aria_math_music_disc.json
+ad0b77d94b29a711c1ff0ab62da5cc2a622b6d0f assets/more_ores_rebelspark/models/item/castlemania_ii_music_disc.json
 0a001ca3d626e378f404beb79a6ba113bdc7bf88 assets/more_ores_rebelspark/models/item/castlemania_music_disc.json
 56cb08d8c362c2270da249e4e9014271bed9accc assets/more_ores_rebelspark/models/item/copper_axe.json
 4c1be24af61e22d1aa3dc337c21c2ea57d741d6f assets/more_ores_rebelspark/models/item/copper_boots.json
@@ -50,7 +51,11 @@ ba77e554f5db3757cf65a954633f73a00db9b890 assets/more_ores_rebelspark/models/item
 17fc1bed39b7acad81e0bb4c3c965eef722beb0a assets/more_ores_rebelspark/models/item/copper_pickaxe.json
 fdd1b5cc85008009008fc40c9e690655436311a8 assets/more_ores_rebelspark/models/item/copper_shovel.json
 7bfcd17f0a02231e871ee13538b8ea156db9b83c assets/more_ores_rebelspark/models/item/copper_sword.json
+8d91d6a404e967913ccf053cc4046117aa88f38d assets/more_ores_rebelspark/models/item/headbug_music_disc.json
 a02b4c87cb70adfb9d1bb1e58f6f7132e05b5e27 assets/more_ores_rebelspark/models/item/refined_ruby.json
+9ec7387a1563dcd9a8ceb1d5f72f7be0c9eba5b1 assets/more_ores_rebelspark/models/item/rough_ruby_shard.json
+fe57b766c5c45a1d452bafc9134d3aa2553107ee assets/more_ores_rebelspark/models/item/ruby_hammer.json
+f19fdc09731904b44d635e9f0d3972ee4c942932 assets/more_ores_rebelspark/models/item/steel_bolt.json
 1f75e95e3026871ca697b50a06ff6c938c96fea6 assets/more_ores_rebelspark/models/item/steel_ingot.json
 30016fe542536e35f03cae34239128f18497d01d assets/more_ores_rebelspark/models/item/steel_rod.json
 acd0994042047dde841ed1de72e29e3b891883f1 assets/more_ores_rebelspark/models/item/titanium_axe.json

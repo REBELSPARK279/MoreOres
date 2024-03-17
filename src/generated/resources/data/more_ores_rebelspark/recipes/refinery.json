@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_block"
+    },
+    "B": {
+      "item": "minecraft:brush"
+    },
+    "C": {
+      "item": "more_ores_rebelspark:steel_bolt"
+    },
+    "S": {
+      "item": "more_ores_rebelspark:steel_ingot"
+    }
+  },
+  "pattern": [
+    "CSC",
+    "SBS",
+    "S#S"
+  ],
+  "result": {
+    "item": "more_ores_rebelspark:refinery"
+  },
+  "show_notification": true
+}

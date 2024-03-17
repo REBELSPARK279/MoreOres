@@ -43,6 +43,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.CASTLEMANIA_MUSIC_DISC);
         simpleItem(ModItems.ARIA_MATH_MUSIC_DISC);
+        simpleItem(ModItems.HEADBUG_MUSIC_DISC);
+        simpleItem(ModItems.CASTLEMANIA_II_MUSIC_DISC);
 
         simpleItem(ModItems.TITANIUM_PIECE);
         handhelditem(ModItems.TITANIUM_SWORD);
@@ -65,12 +67,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.COPPER_LEGGINGS);
         trimmedArmorItem(ModItems.COPPER_BOOTS);
 
+        handhelditem(ModItems.RUBY_HAMMER);
+
         simpleItem(ModItems.REFINED_RUBY);
+        simpleItem(ModItems.ROUGH_RUBY_SHARD);
+
 
         simpleItem(ModItems.TOPAZ_GEMSTONE);
 
         simpleItem(ModItems.STEEL_INGOT);
         simpleItem(ModItems.STEEL_ROD);
+        simpleItem(ModItems.STEEL_BOLT);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
