@@ -23,13 +23,12 @@ public class ModPlacedFeatures {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, TITANIUM_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_TITANIUM_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(4,  // <- amt per chunk
+                ModOrePlacement.commonOrePlacement(9,  // <- amt per chunk
                         HeightRangePlacement.triangle(VerticalAnchor.absolute(-100), VerticalAnchor.absolute(48))));
                                                                 //      deepest Y level^                    highest y level^        most spawn at y -26 bc thats middle
-
         register(context, RUBY_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_RUBY_ORE_KEY),
-                ModOrePlacement.commonOrePlacement(1,
-                        HeightRangePlacement.triangle(VerticalAnchor.absolute(-90), VerticalAnchor.absolute(10))));
+                ModOrePlacement.commonOrePlacement(5,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-24), VerticalAnchor.absolute(16))));
     }
 
 

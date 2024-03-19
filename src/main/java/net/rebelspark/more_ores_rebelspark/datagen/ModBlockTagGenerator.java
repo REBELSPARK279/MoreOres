@@ -33,6 +33,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.REFINERY.get()
                 );
 
+        this.tag(BlockTags.MINEABLE_WITH_AXE)
+
+                .add(ModBlocks.SPLUNKERS_TABLE.get()
+                );
+
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.TITANIUM_ORE.get(),
